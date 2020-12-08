@@ -1,0 +1,89 @@
+:root {
+    /* skriftfarge */
+    --color: #17252A;
+    /* Boks-skygge */
+    --box-shadow-color: #0f2423;
+    /* bakgrunnsfarge */
+    --background: #2AAFA9;
+    /* background-color */
+    --background-color: #DEF2F1;
+    /* Skriftfarge overskrifer */
+    --overskrift: #FEFFFF;
+    /* linjehøyde */
+    --line-height: 1.5em;
+}
+
+
+/* -Start. Denne kodebiten har blitt kodet av Halvor - Studentnr 233208 - Dato: 16.11.2020 */
+
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color);
+    color: var(--color);
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50px auto 70px;
+}
+
+
+header {
+    /*  grid-area: nav; */
+    background-color: var(--background);
+    top: 0;
+    position: fixed;
+    width: 100vw;
+}
+
+main {
+    background-color: var(--background-color);
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 10px;
+}
+
+footer {
+    /* Footer er usynlig helt til man scroller til bånn av siden, så popper den opp. JS */
+    /* Footer skal ligge i bånn uansett */
+    background-color: var(--background);
+    grid-row-start: 3;
+    grid-row-end: 4;
+    height: 70px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 16px;
+}
+
+td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    padding: 0px;
+}

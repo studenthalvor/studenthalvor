@@ -1,0 +1,368 @@
+    #burgerbilde {
+        width: 30px;
+    }
+    /* 
+.grid-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--background);
+} */
+    
+
+
+
+    .grid-main {}
+    
+    .grid-footer {
+        text-align: center;
+    }
+    
+    #loginn-knapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    .button {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    #nom-innledning {
+        text-align: center;
+        margin: 20px;
+    }
+    
+    #nom-tablewrapper {
+        display: grid;
+        background-color: white;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        padding-top: 5px;
+        font-size: 18px;
+    }
+    
+    .sentrertheader {
+        text-align: center;
+    }
+    
+    #nominasjon-a {
+        display: grid;
+        justify-content: center;
+        margin: 5px;
+    }
+    
+    #nominasjon-b {
+        margin: 5px;
+    }
+    
+    #nom-knappwrapper {
+        display: grid;
+        justify-content: center;
+        align-content: space-around;
+    }
+    
+    #nom-wrapper {
+        display: grid;
+        grid-template-rows: auto 30px;
+    }
+    
+    #nom-formwrapper {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        height: auto;
+        justify-content: center;
+        background-color: white;
+    }
+    
+    #venstrekolonne {
+        text-align: right;
+    }
+    
+    #nominasjonsforslag {
+        background-color: white;
+    }
+    
+    #forslag {
+        background-color: white;
+    }
+    
+    .sideskiller {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* -Slutt */
+    
+    .grid-login-avatar {
+        text-align: center;
+    }
+    
+    #loginn-avatar {
+        width: 120px;
+        margin-top: 30px;
+    }
+    
+    .logginn-wrapper {
+        display: grid;
+        grid-template-rows: auto auto;
+        margin: auto;
+        justify-content: center;
+        width: 200px;
+    }
+    
+    
+    #logginn-c {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    
+    /* 
+
+  
+
+
+
+*/
+
+
+    
+
+    /* Css for Drop-down */
+    
+
+
+    .navigasjon {
+        background-color: var(--background);
+        box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+        position: fixed;
+        width: 100%;
+        z-index: 3;
+    }
+    
+    .navigasjon ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        overflow: hidden;
+        background-color: white;
+    }
+    
+    .navigasjon a {
+        color: black;
+    }
+    
+    .navigasjon li a {
+        display: block;
+        padding: 20px 20px;
+        border-right: 1px solid #f4f4f4;
+        text-decoration: none;
+    }
+    
+    .navigasjon li a:hover {
+        background-color: #f4f4f4;
+    }
+    
+    .navigasjon .logo {
+        display: block;
+        float: left;
+        font-size: 1.3em;
+        padding: 10px 20px;
+        text-decoration: none;
+    }
+    
+    .navigasjon .menu {
+        clear: both;
+        max-height: 0;
+        transition: max-height .2s ease-out;
+    }
+    
+    .navigasjon .menyikon {
+        cursor: pointer;
+        display: inline-block;
+        float: right;
+        padding: 28px 20px;
+        position: relative;
+        user-select: none;
+    }
+    
+    .navigasjon .menyikon .navicon {
+        background: #333;
+        display: block;
+        height: 2px;
+        position: relative;
+        transition: background .2s ease-out;
+        width: 18px;
+    }
+    
+    .navigasjon .menyikon .navicon:before,
+    .navigasjon .menyikon .navicon:after {
+        background: #333;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        transition: all .2s ease-out;
+        width: 100%;
+    }
+    
+    .navigasjon .menyikon .navicon:before {
+        top: 5px;
+    }
+    
+    .navigasjon .menyikon .navicon:after {
+        top: -5px;
+    }
+    
+    .navigasjon .menyknapp {
+        display: none;
+    }
+    
+    .navigasjon .menyknapp:checked~.menu {
+        max-height: 350px;
+    }
+    
+    .navigasjon .menyknapp:checked~.menyikon .navicon {
+        background: transparent;
+    }
+    
+    .navigasjon .menyknapp:checked~.menyikon .navicon:before {
+        transform: rotate(-45deg);
+    }
+    
+    .navigasjon .menyknapp:checked~.menyikon .navicon:after {
+        transform: rotate(45deg);
+    }
+    
+    .navigasjon .menyknapp:checked~.menyikon:not(.steps) .navicon:before,
+    .navigasjon .menyknapp:checked~.menyikon:not(.steps) .navicon:after {
+        top: 0;
+    }
+    /* Fra tutorial, skriv om for å få til å funke som man vil */
+
+       /* -Start. Denne kodebiten har blitt kodet av Ketil - Studentnr 233221 - Dato: 17.11.2020 */
+        .grid-login-avatar{
+            margin-top: 120px;
+            margin-bottom: 20px;
+        }
+
+       .loggin-input{
+        height: 25px;
+        font-weight: bold;
+        border: 2px solid ;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /* -Slutt */
+
+    /* -Start. Denne kodebiten har blitt kodet av Kristian - Studentnr 233216 - Dato: 18.11.2020 */
+    .reg-desktop-bilde {
+        display: none;
+    }
+    
+    .reg-skjema {
+        display: grid;
+        margin: auto;
+        width: calc(70% - 20px);
+        padding-top: 50px;
+        width: 200px;
+    }
+
+    .regh1 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    /* -Slutt */
+    
+
+@media screen and (min-width: 650px) {
+    nav li {
+        float: left;
+        
+
+    }
+
+    .navicon {
+        display: none;
+    }
+
+
+    nav li a {
+        padding: 20px 30px;
+    }
+    
+
+    /* -Start. Denne kodebiten har blitt kodet av Halvor og Kristian - Studentnr 233208 og 233216 - Dato: 18.11.2020 */
+
+    nav .meny {
+        max-height: none;
+    }
+    nav .menyikon {
+        display: none;
+    }
+
+    .navigasjon ul {
+        overflow: hidden;
+
+    }
+
+    .navigasjon .menyikon {
+        display: none;
+    }
+
+
+    .navigasjon .menu {
+        clear: both;
+        max-height: none;
+        transition: max-height .2s ease-out;
+    }
+
+    body {
+        grid-template-rows: 50px 79px auto 70px;
+    }
+
+    nav {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    main {
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+    footer {
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+    /* -Slutt */
+
+    /* -Start. Denne kodebiten har blitt kodet av Kristian - Studentnr 233216 - Dato: 18.11.2020 */
+    .reg-form {
+        display: grid;
+        grid-template-rows: auto auto;
+        margin: auto;
+        width: 570px;
+        overflow: hidden;
+        grid-template-columns: 50px 1fr;
+        justify-content: center;
+        border: 2px solid blue;
+    }
+
+    .reg-skjema {
+        width: calc(76% - 100px);
+        border: 2px solid yellow;
+    }
+
+    .reg-desktop-bilde {
+        display: grid;
+        float: left;
+        border: 2px solid red;
+        padding-top: 50px;
+    }
+    /* -Slutt */
+
+}
